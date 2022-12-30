@@ -4,17 +4,27 @@ public class Main {
     public static void main(String[] args) {
 
         Task2 task2 = new Task2();
-
         Tasks3 tasks3 = new Tasks3();
-
         Task4 task4 = new Task4();
-
         Task1 task1 = new Task1();
-
         Task5 task5 = new Task5();
 
+
+//        System.out.println(task1.findSize());
+        task1.add(1);
+//        System.out.println(task1.findSize());
+        task1.add(5);
+        task1.add(8);
+//        System.out.println(task1.findSize());
+        task1.addAtIndex(4,1);
+        task1.deleteAtIndex(1);
+//        System.out.println(task1.findSize());
+//        System.out.println(task1.getAtIndex(6));
+
+
+
 //        task5.node5.insertElement(7);
-//        task5.node5.findValue(1);
+//        task5.node5.findValue(6);
 
 //        try {
 //            System.out.println(task1.getAtIndex(2).value);

@@ -6,16 +6,15 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 public class Task1Test {
 
-    Task1 task1 = new Task1();
+   Task1 task1 = new Task1();
 
     @Test
     void adding(){
 
+        int[] expected = {1};
+//        int[] output = task1.add(1);
 
-        int[] expected = {5,10};
-        int[] output = task1.add(10);
-
-        assertArrayEquals(expected, output);
+//        assertArrayEquals(expected, output);
 
 
 
